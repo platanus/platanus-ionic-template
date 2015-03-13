@@ -1,0 +1,28 @@
+{
+  "name": "platanus-ionic-starter",
+  "app_id": "",
+  "documentRoot": "app",
+  "gulpStartupTasks": [
+    "env",
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "app/**/*",
+    "!app/scss/**/*",
+    "!app/lib/**/*"
+  ],
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://myapp.pow/api"
+    }
+  ],
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "11.40.277.1"
+    }
+  ]
+}

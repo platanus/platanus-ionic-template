@@ -1,0 +1,5 @@
+# These files will be left out of the /www folder on the build process.
+# This is a comment.
+
+scss/
+img/*.jpg
